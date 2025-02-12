@@ -16,12 +16,12 @@ class wallet {
             totalBalance = 0;
             TransactionHistory = "";
         }
-        void addMoney(){
-            
+        void addMoney(double amount){
+            totalBalance = amount + totalBalance;
         }
     
 }
 int main() {
-
+    
     return 0;
 }
